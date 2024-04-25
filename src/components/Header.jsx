@@ -20,17 +20,17 @@ const Header = () => {
            Hello,
           </h1>
           <div className='flex items-center justify-center text-white shadow-lg bg-blue-800 dark:bg-[#224cff10] dark:text-[#224cff] rounded-full'>
-            {/* <p className='text-3xl 2xl:text-5xl font-bold px-5 py-2 pb-2 text-center'>
-              Shivam Pandey
-            </p> */}
+            
           </div>
         </div>
 
         <h1 className=' font-extrabold text-black dark:text-neutral-100 tracking-wider'>
         <TypeAnimation
       sequence={[
-        "I'm Shivam Pandey", 2000,
+        "I'm Abhishek Pandey", 2000,
         "I'm Software Developer" ,
+        2000,
+        "I'm Front-End Developer" ,
         2000,
       ]}
       wrapper="span"
@@ -64,7 +64,7 @@ const Header = () => {
       <div className='w-full flex-1 flex justify-center'>
         <div className='w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px]  border rounded-full border-gray-600 dark:border-gray-200 relative  md:mt-20 lg:mt-0 flex items-center justify-center'>
           <img
-            src={Profile}
+            src={Reactjs}
             alt="img"
             className='w-auto h-full absolute -top-5 md:-top-10'
             data-aos='fade-down'

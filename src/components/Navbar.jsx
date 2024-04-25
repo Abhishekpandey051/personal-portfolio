@@ -7,9 +7,9 @@ import { AiOutlineClose } from "react-icons/ai";
 const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Shivam_Pandey_Resume.pdf';
+    link.href = '/Abhishek_Pandey_Resume.pdf';
     link.target = '_blank';
-    link.download = 'Shivam_Pandey_Resume.pdf';
+    link.download = 'Abhishek_Pandey_Resume.pdf';
     link.click();
   };
   return (
@@ -33,7 +33,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
               <a href='#projects'>Projects</a>
             </li>
             <li className='cursor-pointer hover:text-blue-500'>
-            <a href='/img/Shivam_Pandey_Resume.pdf' onClick={downloadResume}>Download Resume</a>
+            <a href='/img/Abhishek_Pandey_Resume' onClick={downloadResume}>Download Resume</a>
             </li>
           </ul>
           <button onClick={toggleTheme} className='p-2'>
@@ -83,7 +83,7 @@ const Navbar = ({ darkMode, isOpen, toggleMenu, toggleTheme }) => {
             <a href='#projects' onClick={toggleMenu} className='cursor-pointer'>
               Projects
             </a>
-            <a href='/img/Shivam_Pandey_Resume.pdf' onClick={downloadResume}>Download Resume</a>
+            <a href='/img/Abhishek_Pandey_Resume' onClick={downloadResume}>Download Resume</a>
           </div>
         </div>
       </div>
