@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className='w-full flex flex-col md:flex-row py-20 px-8 md:px-10 gap-10 lg:gap-20 justify-between '>
         <p className='text-lg text-white font-semibold '>
-          Bangalore, IN
+          NOida, IN
         </p>
 
         <div className='flex flex-col md:flex-row text-md gap-5 md:gap-20 text-white '>
@@ -19,8 +19,8 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col gap-5 text-md text-white '>
-          <p><a href="mailto:cse.shivam98@GMAIL.COM">cse.shivam98@gmail.com</a></p>
-          <p>+91 7266963636</p>
+          <p><a href="mailto:dev.abhi051@GMAIL.COM">dev.abhi051@gmail.com</a></p>
+          <p>+91 9415061569</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const Footer = () => {
         {/* <p className="sub--title">Get In Touch</p> */}
         <h2>Let's Connect</h2>
         <p className="text-sm	md:font-weight: 600 md:p-0 md:text-lg">
-          If you are looking to get ahold of me, you can send me an email at <a href="mailto:cse.shivam98@gmail.com">cse.shivam98@gmail.com</a>.
+          If you are looking to get ahold of me, you can send me an email at <a href="mailto:dev.abhi051@gmail.com">dev.abhi051@gmail.com</a>.
           <br />
           <p className="text-center">You can also find me on</p>
         </p>
@@ -40,25 +40,25 @@ const Footer = () => {
         </p>
 
         <div className='flex gap-10 text-white text-2xl mb-10 '>
-          <a href="https://github.com/ShivamPandey001">
+          <a href="https://github.com/abhishekpandey051">
             <BsGithub className='hover:scale-125' />
           </a>
           {/* <a href="https://www.facebook.com/your-facebook-profile">
             <BsFacebook className='hover:scale-125' />
           </a> */}
-          <a href="https://www.instagram.com/heyits.shivam/">
+          <a href="https://www.instagram.com/abhishek.p05/">
             <BsInstagram className='hover:scale-125' />
           </a>
-          <a href="https://www.linkedin.com/in/shivampandey001/">
+          <a href="https://www.linkedin.com/in/abhishek-pandey-16694021a/">
             <BsLinkedin className='hover:scale-110' />
           </a>
-          <a href="https://twitter.com/TheShivam_P">
+          {/* <a href="https://twitter.com/TheShivam_P">
             <AiFillTwitterCircle className='hover:scale-125' />
-          </a>
+          </a> */}
         </div>
 
 
-        <p className='text-gray-400 text-md tracking-wider'>@2024 Shivam Portfolio</p>
+        <p className='text-gray-400 text-md tracking-wider'>@2025 Abhishek Portfolio</p>
       </div>
     </footer>
   );

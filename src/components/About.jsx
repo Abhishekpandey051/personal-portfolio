@@ -20,9 +20,9 @@ const About = () => {
           About Me
         </p>
         <p className='text-lg text-black dark:text-gray-400 leading-10'>
-        I am Shivam Pandey, an aspiring full stack developer with knowledge of latest web technologies. I've 2+ years of experience at enVista corp, I am proficient in making full blown web applications and especially frontend part of it. I have made static as well as dynamic web pages using HTML, CSS, Javascript & ReactJS. I am proficient in JavaScript and know core Java and C++. Though, I am learning to deal with complex algorithms till now. I am ready to collaborate on projects so I will be ready to contact you.
+          I am Abhishek Pandey, an aspiring full stack developer with knowledge of latest web technologies. I've 2 years of experience at Apcomp Infotech, I am proficient in making full blown web applications and especially frontend part of it. I have made static as well as dynamic web pages using HTML, CSS, Javascript & ReactJS. I am proficient in JavaScript and know core Java and C++. Though, I am learning to deal with complex algorithms till now. I am ready to collaborate on projects so I will be ready to contact you.
 
-        <br/>Besides all this, I used to write motivational quotes to share on Social Media, just to spread positivity in the environment. I like chilling out on weekends and like to make new and interesting friends.
+          <br />Besides all this, I used to write motivational quotes to share on Social Media, just to spread positivity in the environment. I like chilling out on weekends and like to make new and interesting friends.
         </p>
 
         <div
@@ -34,19 +34,19 @@ const About = () => {
           data-aos-easing='ease-in-out'
         >
           <p className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'>
-            <FaUserAlt size={14} /> Shivam Pandey
+            <FaUserAlt size={14} /> Abhishek Pandey
           </p>
           <p className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'>
-            <MdOutlineAlternateEmail size={14} /> <a href="mailto:cse.shivam98@gmail.com">cse.shivam98@gmail.com</a>
+            <MdOutlineAlternateEmail size={14} /> <a href="mailto:dev.abhi051@gmail.com">dev.abhi051@gmail.com</a>
           </p>
           <a
             href='https://wa.me/+11 234 567 897'
             className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'
           >
-            <BsWhatsapp size={14} /> +91 7266963636
+            <BsWhatsapp size={14} /> +91 9415061569
           </a>
           <p className='flex gap-3 items-center justify-center rounded-full shadow-lg py-2 px-4 bg-[#030a1c] text-white cursor-pointer'>
-            <MdWifiCalling2 size={14} /> +91 7266963636
+            <MdWifiCalling2 size={14} /> +91 9415061569
           </p>
         </div>
       </div>

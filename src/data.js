@@ -16,6 +16,7 @@ import {
   port2,
   port3,
   social,
+  Redux,
 } from "./assets";
 
 export const projectStats = [
@@ -42,21 +43,37 @@ export const tools = [
     name: "MongoDB",
     icon: Mongodb,
   },
-  {
-    name: "Express",
-    icon: Express,
-  },
+  // {
+  //   name: "Express",
+  //   icon: Express,
+  // },
   {
     name: "React",
     icon: Reactjs,
   },
+  // {
+  //   name: "NodeJs",
+  //   icon: Nodejs,
+  // },
   {
-    name: "NodeJs",
-    icon: Nodejs,
+    name: "Redux",
+    icon: Redux
+  },
+  // {
+  //   name: "CSS3",
+  //   icon: CSS3,
+  // },
+  // {
+  //   name: "HTML5",
+  //   icon: HTML5,
+  // },
+  {
+    name: "JavaScript",
+    icon: Javascript,
   },
   {
-    name: "NextJs",
-    icon: Nextjs2,
+    name: "Tailwind CSS", 
+    icon: Tailwind,
   },
 ];
 
